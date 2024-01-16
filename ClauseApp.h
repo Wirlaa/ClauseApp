@@ -2,7 +2,6 @@
 #define TEST_CLAUSEAPP_H
 
 #include <string>
-#include <array>
 #include <vector>
 
 using std::string, std::vector;
@@ -11,8 +10,8 @@ struct Clause{
     string clause;
     string translation;
     size_t omittedWordIndex;
+    size_t correctAnswerIndex;
     vector<size_t> answersIndexes;
-    size_t correctIndex;
 };
 
 vector<size_t> generateRandomAnswers(size_t size, size_t elemsCount, size_t answerIndex);
@@ -21,7 +20,7 @@ class AppEngine {
 private:
     vector<string> allAnswers;
     vector<Clause> clauses;
-    size_t currentIndex{};
+    size_t currentIndex {};
     size_t correctAnswersCount {};
     const string filepath;
 public:
@@ -31,6 +30,7 @@ public:
     void refactorClause(Clause&);
     [[nodiscard]] Clause currentClause() const;
     bool isCorrect(size_t answer);
+    void reset();
     void nextClause();
     void addPoint();
     string getPointsString();

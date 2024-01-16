@@ -21,6 +21,10 @@ MainWindow::MainWindow(QWidget *parent)
     ui->lineClause->setVisible(false);
     ui->lineTranslation->setVisible(false);
     ui->actionReturn->setVisible(false);
+    connect(ui->button0, &QPushButton::clicked, [this] {this->onAnswerPressed(0);});
+    connect(ui->button1, &QPushButton::clicked, [this] {this->onAnswerPressed(1);});
+    connect(ui->button2, &QPushButton::clicked, [this] {this->onAnswerPressed(2);});
+    connect(ui->button3, &QPushButton::clicked, [this] {this->onAnswerPressed(3);});
     connect(ui->actionShow, &QAction::triggered, [this] {this->showForm();});
     connect(ui->actionReturn, &QAction::triggered, [this] {this->closeForm();});
     connect(ui->buttonNext, &QPushButton::clicked, [this] {this->start();});
@@ -34,6 +38,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::start()
 {
+    engine.reset();
+    ui->labelPoints->setText("");
     ui->labelTranslation->setVisible(true);
     ui->labelResult->setVisible(true);
     ui->button0->setVisible(true);
@@ -42,10 +48,6 @@ void MainWindow::start()
     ui->button3->setVisible(true);
     ui->buttonNext->disconnect();
     ui->buttonNext->setText("Next");
-    connect(ui->button0, &QPushButton::clicked, [this] {this->onAnswerPressed(0);});
-    connect(ui->button1, &QPushButton::clicked, [this] {this->onAnswerPressed(1);});
-    connect(ui->button2, &QPushButton::clicked, [this] {this->onAnswerPressed(2);});
-    connect(ui->button3, &QPushButton::clicked, [this] {this->onAnswerPressed(3);});
     connect(ui->buttonNext, &QPushButton::clicked, [this] {this->onNextPressed();});
     setQuestion();
 }
@@ -99,18 +101,26 @@ void MainWindow::onNextPressed()
     answerPressed = false;
     toggleDisabledButtons();
     if (engine.currentClause().clause.empty()) {
-        ui->labelClause->setText("No more clauses.");
-        ui->labelTranslation->setVisible(false);
-        ui->labelResult->setVisible(false);
-        ui->button0->setVisible(false);
-        ui->button1->setVisible(false);
-        ui->button2->setVisible(false);
-        ui->button3->setVisible(false);
-        connect(ui->buttonNext, &QPushButton::clicked, qApp, &QCoreApplication::quit, Qt::QueuedConnection);
-        ui->buttonNext->setText("Exit");
+        restart();
+        //        connect(ui->buttonNext, &QPushButton::clicked, qApp, &QCoreApplication::quit, Qt::QueuedConnection);
+        //        ui->buttonNext->setText("Exit");
         return;
     }
     setQuestion();
+}
+
+void MainWindow::restart()
+{
+    ui->labelClause->setText("No more clauses.");
+    ui->labelTranslation->setVisible(false);
+    ui->labelResult->setVisible(false);
+    ui->button0->setVisible(false);
+    ui->button1->setVisible(false);
+    ui->button2->setVisible(false);
+    ui->button3->setVisible(false);
+    ui->buttonNext->disconnect();
+    connect(ui->buttonNext, &QPushButton::clicked, [this] {this->start();});
+    ui->buttonNext->setText("Restart");
 }
 
 void MainWindow::onAnswerPressed(int answer)
@@ -119,7 +129,7 @@ void MainWindow::onAnswerPressed(int answer)
     if (engine.isCorrect(answer)) {
         engine.addPoint();
         ui->labelResult->setText("Correct");
-        setStyleSheet("background-color: rgb(85, 170, 0); border-style: outset; border-width: 3px; border-color: rgb(200, 200, 200);", engine.currentClause().correctIndex);
+        setStyleSheet("background-color: rgb(85, 170, 0); border-style: outset; border-width: 3px; border-color: rgb(200, 200, 200);", engine.currentClause().correctAnswerIndex);
     }
     else {
         ui->labelResult->setText("Incorrect");
@@ -134,7 +144,7 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
     if (Qt::Key_Escape == event->key()){
         close();
         qApp->quit();
-    } else if (Qt::Key_N == event->key()) {
+    } else if (Qt::Key_N == event->key() || Qt::Key_Return == event->key()) {
         ui->buttonNext->click();
     } else if (Qt::Key_1 == event->key()) {
         ui->button0->click();

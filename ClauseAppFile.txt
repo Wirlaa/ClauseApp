@@ -1,14 +1,50 @@
-minä olen Wera.;I am Wera.;olen;0
-luin kirjan eilen.;I read a book yesterday.;kirjan;1
-sinun on pakko siivota.;You have to clean up.;sinun;2
-kello on tasan kuusi.;It is 6 o'clock.;tasan;3
-pidän tästä uudesta mekosta!;I like this new dress!;uudesta;4
-sillä ei ole mitään väliä.;It doesn't matter;väliä;5
-sinä on kauniimpi kuin hän.;You are more beautiful than her.;kauniimpi;6
-jalkapallo ei kiinnosta häntä.;He is not interested in soccer.;häntä;7
-kokous alkaa kymmeneltä ja kestää yhteen asti.;The meeting starts at ten and lasts until one.;asti;8
-marekilla oli sekä kirjallinen ja suullinen tentti.;Marek had both a written and an oral exam.;sekä;9
-eilen söin omenan.;Yesterday I ate an apple.;söin;10
-rakastan sinua.;I love you.;sinua;11
-haluan juoda.;I want to drink.;haluan;12
-saadepaivat ovat mukavia.;Rainy days are nice.;saadepaivat;13
+Aleksis Kivi on kuuluisa suomalainen kirjailija.;Aleksis Kivi to słynny fiński pisarz.
+hän syntyi kymmenentenä lokakuuta vuonna tuhatkahdeksansataakolmekymmentäneljä.;On urodził się dziesiątego października tysiąc osiemset trzydziestego czwartego.
+hänen alkuperäinen nimensä, Stenvall, oli ruotsalainen.;Jego oryginalne nazwisko, Stenvall, było szwedzkie.
+hän itse muutti nimensä suomalaiseksi Kiveksi, joka tarkoittaa suurin piirtein samaa.;On sam je zmienił na fińskie Kivi, które znaczy mniej więcej to samo.
+hänen perheensä oli köyhä.;Jego rodzina była biedna.
+onneksi nuori Aleksis pääsi käymään koulua ja sen jälkeen opiskelemaan Helsingissä.;Na szczęście młody Aleksis mógł chodzić do szkoły, a następnie studiować w Helsinkach.
+opiskelun aikana hän aloitti kirjoittamisen.;Podczas studiów on zaczął pisać.
+hänen kuuluisin teoksensa on ensimmäinen suomenkielinen romaani Seitsemän veljestä.;Jego najsłynniejsze dzieło to pierwsza fińskojęzyczna powieść „Siedmiu braci”.
+romaani kertoo seitsemästä veljestä, jotka elävät maalla, ja heidän monesta seikkailustaan.;Powieść opowiada o siedmiu braciach, którzy mieszkają na wsi, i o ich wielu przygodach.
+valitettavasti arvostelijat eivät arvostaneet Kiven teosta.;Niestety, krytycy nie docenili dzieła Kiviego.
+Aleksis Kivi eli edelleen köyhyydessä ja sairastui mielisairauteen.;Aleksis Kivi nadal żył w biedzie i zachorował na chorobę psychiczną.
+hän kuoli kolmantenakymmenentenäensimmäisenä joulukuuta vuonna tuhatkahdeksansataaseitsemänkymmentäkaksi, vain kaksi vuotta hänen romaaninsa julkaisun jälkeen.;Zmarł trzydziestego pierwszego grudnia roku tydziąc osiemset trzydziestego pierwszego, tylko dwa lata po wydaniu jego powieści.
+hän syntyi viidentenätoista marraskuuta.;On urodził się piętnastego listopada.
+he lähtivät kahtenakymmenentenäkuudentena joulukuuta.;Oni wyjechali dwudziestego szóstego grudnia.
+he tutustuivat seitsemäntenätoista kesäkuuta.;Oni poznali się siedemnastego czerwca.
+sinulla on syntymäpäivä kahdentenakymmenentenätoisena maaliskuuta.;Masz urodziny dwudziestego drugiego marca.
+he aloittavat siivoamista.;Oni zaczynają sprzątać.
+loma alkoi eilen.;Wakacje zaczęły się wczoraj.
+hän on juuri aloittanut tiskaamista.;On właśnie zaczął zmywać.
+hän muutti nimensä suomalaiseksi.;On zmienił swoje nazwisko na fińskie.
+hän muuttui kauniiksi tytöksi.;Ona zmieniła się w piękną dziewczynę.
+milloin koulu alkaa?;Kiedy zaczyna się szkoła?
+tule nyt, mennään kauppaan.;Chodź teraz, pójdźmy do sklepu.
+mitä ostetaan? Ostetaanko ruokaa?;Co kupujemy? Kupujemy jedzenie?
+muun muassa.;Między innymi.
+haluan ostaa pari postikorttia ja lähettää ne kotiin.;Chcę kupić kilka pocztówek i wysłać je do domu.
+minä olen unohtanut sen.;Zapomniałem o tym.
+joo, mennään nyt!;Chodźmy już.
+kohta olen valmis.;Zaraz będę gotowa.
+ota rahaa, minä en ota reppuani!;Zabierz pieniądze, nie biorę swojego plecaka.
+haluatko maistella kreikkalaista juustoa?;Chcesz spróbować greckiego sera?
+se on varmasti erilaista kuin kreikkalainen juusto, jota myydään Suomessa.;To z pewnością jest inny niż grecki ser sprzedawany w Finlandii.
+joo, ota pala sitä ja vielä pari tomaattia.;Tak, weź kawałek i jeszcze kilka pomidorów.
+ostetaan vielä neljä banaania, viinirypälemehua, ja pari appelsiinia.;Kupmy jeszcze cztery banany, sok z winogron i kilka pomarańczy.
+minä tarvitsen vielä uudet uimahousut. ;Potrzebuję jeszcze nowych kąpielówek.
+en sanonut sinulle, mutta olen hukannut nämä vanhat johonkin.;Nie mówiłem ci, ale zgubiłem gdzieś te stare.
+mitä? mihin?;Co? Gdzie?
+no en tiedä.;No nie wiem. 
+jätin ne kuivumaan ja kun tulin hakemaan ne, ne olivat kadonneet.;Zostawiłem je do wyschnięcia, a kiedy po nie poszedłem, one zniknęły.
+sinä olet mahdoton!;Jesteś niemożliwy!
+ja sinä valitit, että minä hukkasin suojavoiteen johonkin.;A ty narzekałeś, że zgubiłam gdzieś krem ochronny.
+okei, mennään ostamaan uusi uimapuku.;Okej, chodźmy kupić nowy strój kąpielowy.
+hän ei koskaan juo kahvia.;On nigdy nie pije kawy.
+täällä ei polteta tupakkaa.;Tutaj nie pali się papierosów.
+sinun ei tarvitse siivota asuntoa nyt.;Nie musisz sprzątać teraz mieszkania.
+älä osta tätä tomaattia!;Nie kupuj tego pomidora.
+sinun pitää juoda lämmintä teetä.;Powinieneś napić się ciepłej herbaty.
+osta kinkkua.;Kup szynkę.
+hän on lukemassa kirjaa.;On czyta książkę.
+lähetän kirjeen Puolaan.;Wysyłam książkę do Polski.

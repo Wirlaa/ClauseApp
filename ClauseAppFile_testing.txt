@@ -1,0 +1,15 @@
+fileinfo: plik do testow
+minä olen Wera.;I am Wera.;olen;0
+luin kirjan eilen.;I read a book yesterday.;kirjan;1
+sinun on pakko siivota.;You have to clean up.;sinun;2
+kello on tasan kuusi.;It is 6 o'clock.;tasan;3
+pidän tästä uudesta mekosta!;I like this new dress!;uudesta;4
+sillä ei ole mitään väliä.;It doesn't matter;väliä;5
+sinä on kauniimpi kuin hän.;You are more beautiful than her.;kauniimpi;6
+jalkapallo ei kiinnosta häntä.;He is not interested in soccer.;häntä;7
+kokous alkaa kymmeneltä ja kestää yhteen asti.;The meeting starts at ten and lasts until one.;asti;8
+marekilla oli sekä kirjallinen ja suullinen tentti.;Marek had both a written and an oral exam.;sekä;9
+eilen söin omenan.;Yesterday I ate an apple.;söin;10
+rakastan sinua.;I love you.;sinua;11
+haluan juoda.;I want to drink.;haluan;12
+saadepaivat ovat mukavia.;Rainy days are nice.;saadepaivat;13

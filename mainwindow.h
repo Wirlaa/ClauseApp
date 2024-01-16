@@ -15,7 +15,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
+    
 public slots:
     void start();
     void setQuestion();
@@ -27,6 +27,7 @@ public slots:
     void showForm();
     void addClause();
     void closeForm();
+    void restart();
 
 private:
     Ui::MainWindow *ui;
